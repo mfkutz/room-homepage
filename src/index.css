@@ -1,0 +1,35 @@
+:root {
+  --Dark-Gray: hsl(0, 0%, 63%);
+  --Black: hsl(0, 0%, 0%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 43px;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  h2{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  p {
+    color: var(--Dark-Gray);
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
